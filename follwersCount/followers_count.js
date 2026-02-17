@@ -18,6 +18,7 @@ function checkCountValue() {
 
 function resetCount() {
     count = 0; //reset count back to zero
+    //alert("In Reset Function! Count is (count)");
     displayCount();
     checkCountValue();
 }
